@@ -37,6 +37,13 @@ const Sidebar = () => {
             <p className="font-light">we'll keep you update on new episodes.</p>
             <button className="px-4 py-1.5 bg-white text-[15px] text-black rounded-full mt-4">Browse podcasts</button>
         </div>
+        <div className='p-4 bg-[#242424] m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-4 mt-4'>
+            <h1>Admin Sight</h1>
+            <p className="font-light">Add songs and albums here.</p>
+            <a href="https://spotify-admin-iota.vercel.app/">
+            <button className="px-4 py-1.5 bg-white text-[15px] text-black rounded-full mt-4">Add Music Here</button>
+            </a>
+        </div>
       </div>
     </div>
   );
